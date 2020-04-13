@@ -1,0 +1,11 @@
+.form {
+  max-width: 300px;
+}
+.button {
+  padding-right: 100px;
+}
+.login-form {
+  padding-top: 150px !important;
+  padding-left: 450px !important;
+  padding-right: 450px !important;
+}
