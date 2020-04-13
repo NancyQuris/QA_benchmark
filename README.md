@@ -30,7 +30,7 @@ To assist the QA model developers, the data was converted to two other formats: 
 }
 ~~~
 
-The original evaluation script for each dataset is included as well.
+To collobrate with the new format, evaluation script was polished. The original evaluation script for each dataset is included as well.
 
 #### Unanswerable analysis
 Sample data was randomly selected to analyse reasons for unanwerable question. The xlsx file contains the result.
