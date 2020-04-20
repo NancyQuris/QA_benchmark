@@ -91,7 +91,7 @@ class AnnotationSubmissionForm extends Component<IProps, IState> {
     const keys = getFieldValue('keys');
     const formItems = keys.map((k, index) => (
       <React.Fragment>
-        <Form.Item label="next answer"
+        <Form.Item label="follow up question"
           key={k + 'follow up question'}
           style={{ marginLeft: '200px', width: "70%" }}>
           {getFieldDecorator(k + 'follow up question', {
@@ -100,7 +100,7 @@ class AnnotationSubmissionForm extends Component<IProps, IState> {
             <Input placeholder="follow up question" />
           )}
         </Form.Item>
-        <Form.Item label="final answer"
+        <Form.Item label="answer"
           key={k + 'answer'}
           style={{ marginLeft: '200px', width: "70%" }}>
           {getFieldDecorator(k + 'answer', {
